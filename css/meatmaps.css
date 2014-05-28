@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+#header {
+	height: 30px;
+	background: #fff;
+	border-bottom: 1px solid #e98fe9;
+	padding: 10px 20px;
+}
+
+#map_canvas {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #ccc;
+}
+
+#title {
+	display: inline-block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+}
+
+#top-buttons {
+	display: inline-block;
+	float: right;
+}
+
+#top-buttons a {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	color: #f181ad;
+	text-decoration: none;
+}
+
+#top-buttons a:hover {
+	text-decoration: underline;
+}
+
+.small {
+	font-size: 12pt;
+}
