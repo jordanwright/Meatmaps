@@ -19,6 +19,9 @@ Please report any errors to Jordan Wright / @JordanLeft.
 * MySQL Database
 * Twitter apps account (apps.twitter.com) to enable Signin with twitter
 
+###Twitter oAuth / HybridAuth Lib
+You will need to create a twitter application for your instance. To do this, login to apps.twitter.com and create a new application. The application only needs **read only access**. Insert the API Key and API Secret into line 59 of the hybridauth config file in /core/ directory. If you'd rather not use twitter signin, change line 58 of the same file to "false".
+
 ###Installation
 * Download and unzip this repo
 * Set your servers root directory to the root of this folder
