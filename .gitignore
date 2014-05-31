@@ -1,3 +1,4 @@
-config.demo.*
+config.hybridauth.php
+config.meatmaps.php
 .ds_store
 meat2.esproj*
