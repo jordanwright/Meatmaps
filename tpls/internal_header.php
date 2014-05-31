@@ -27,7 +27,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="one half padded">
-						<h1>Meatmaps</h1>
+						<h1>Meatmaps <span class="small">Beta</span></h1>
 					</div>
 				</div>
 				
