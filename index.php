@@ -1,6 +1,6 @@
 <?php
 	//Start session
-	include 'engine.php';	
+	require_once('engine.php');	
 	siteArea('map');
 ?>
 
@@ -17,6 +17,7 @@
 		<link href="/css/meatmaps.css" rel="stylesheet" type="text/css" />
 		
 		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script src="/js/overlap-fix.js"></script>
 		<script>
 			var markers = [
 			 <? 

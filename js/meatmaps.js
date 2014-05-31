@@ -21,10 +21,10 @@ function initialize() {
 		}
 	};
   	var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-  
+  	
   	var image = 'images/meatcube2.png';
   	//var image2 = 'images/greencube.png';
-  
+  	
 	var infowindow = new google.maps.InfoWindow(), marker, i;
 	 for (i = 0; i < markers.length; i++) {  
 	    marker = new google.maps.Marker({
