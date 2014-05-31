@@ -24,7 +24,7 @@
 		
 	
 		mysqli_query($GLOBALS['db'], "UPDATE member SET `firstname` = '".$nameClean."', `zip` = '".$zipClean."', `long` = '".$longClean."', `lat` = '".$latClean."', `twitter` = '".$twitterClean."'  WHERE `mem_id` = '".getUserID()."'") or die(mysqli_error($GLOBALS['db']));
-	  echo "Do Submit";
+	  echo "Saved!";
 	}
 	
 	
@@ -93,7 +93,7 @@
     </div>
     <div class="row">
     	<br />
-    	<p class="pink box">To use a manual long/lat please leave the Zip Code field empty. Otherwise, an approx location will be generated for you. <br />UK users may enter the first half of their Postal Code only if they wish.</p>
+    	<p class="pink box">It is recommended that you use a Zip/Postcode in the centre of your hometown or a few kilometers from you if you are not comfortable using your own. UK users may enter the first half of their Postal Code only if they wish.<br />To use a manual coordinate location, leave the Zip Code field empty. Otherwise, an approx location will be generated for you. <br />Please only use decimal format for coordinates!</p>
     </div>
 
   </fieldset>
